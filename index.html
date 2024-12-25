@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="header">
+            <div class="search">
+                <input type="search" placeholder="Search a Location" spellcheck="false" class="input-box">
+                <button class="fa-solid fa-magnifying-glass"></button>
+            </div>
+            <div class="error">
+                <p>Invalid City Name</p>
+            </div>
+        </div>
+
+        <div class="weather-body">
+            <img src="images/clear.png" class="icon">
+            <div class="weather-box">
+                <p class="temp">0 <sup>°C</sup></p>
+                <p class="description">Sunny</p>
+                <h2 class="city">Bhadrapur</h2>
+            </div>
+            <div class="weather-detail">
+                <div class="humidity">
+                    <i class="fa-sharp fa-solid fa-droplet"></i>
+                    <div class="text">
+                        <span id="humidity">45%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="wind-speed">12 km/h</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/da7c67a78e.js" crossorigin="anonymous"></script>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
