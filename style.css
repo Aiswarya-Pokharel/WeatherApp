@@ -80,9 +80,9 @@ body {
     width: 60%;
 }
 
-.weather-box {
-    margin-block: 20px;
+.weather-box { 
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 .weather-box .temp {
@@ -95,12 +95,6 @@ body {
     font-size: 20px;
     position: absolute;
     font-weight: 600;
-}
-
-.weather-box .description {
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: capitalize;
 }
 
 .weather-detail {

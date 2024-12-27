@@ -29,7 +29,7 @@ async function checkweather(city) {
       image.src = "images/drizzle.png";
     } else if (data.weather[0].main == "Mist") {
       image.src = "images/mist.png";
-    } else if (data.weather[1].main == "Snow") {
+    } else if (data.weather[0].main == "Snow"|| data.main.temp <= 0) {
       image.src = "images/snow.png";
     }
     document.querySelector(".weather-body").style.display = "block";
